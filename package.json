@@ -1,0 +1,22 @@
+{
+  "name": "Collaboration",
+  "version": "1.0.0",
+  "description": "My private site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lenkyun/Collaboration.git"
+  },
+  "keywords": [
+    "collaboration"
+  ],
+  "author": "Rapeapach Suwasri",
+  "license": "CC1.0",
+  "bugs": {
+    "url": "https://github.com/lenkyun/Collaboration/issues"
+  },
+  "homepage": "https://github.com/lenkyun/Collaboration"
+}
