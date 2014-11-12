@@ -6,7 +6,7 @@ module.exports = function(grunt){
 		copy: {
 			angular_html: {
 				src: 'src/angular_html/*.html',
-				dest: 'dist/angular/'
+				dest: 'dist/components/'
 			}
 		},
 		concat: {
@@ -56,7 +56,8 @@ module.exports = function(grunt){
 		},
 		uglify: {
 			options: {
-				banner: '/* <%= pkg.name %> \nAuthor : Rapeapach Suwasri \nLicense : CC 1.0 Universal \nDate : <%= grunt.template.today("dd-mm-yyyy") %>\n*/'
+				banner: '/* <%= pkg.name %> \nAuthor : Rapeapach Suwasri \nLicense : CC 1.0 Universal \nDate : <%= grunt.template.today("dd-mm-yyyy") %>\n*/',
+				mangle: false
 			},
 			main_js: {
 				src: ["<%= concat.main_js.dest %>"],
