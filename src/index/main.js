@@ -7,6 +7,7 @@ function addInitEvent(func){
 
 if(jQuery)
 	jQuery(document).ready(function(e){
+		//document.documentElement.requestFullscreen();
 		$.each(INIT_FUNC, function(i, o){
 			if(o != null){
 				try {

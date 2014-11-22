@@ -5,7 +5,9 @@ module.exports = function(grunt){
 		pkg: grunt.file.readJSON('package.json'),
 		copy: {
 			angular_html: {
-				src: 'src/angular_html/*.html',
+				expand: true,
+				flatten: true,
+				src: 'src/components/*.html',
 				dest: 'dist/components/'
 			}
 		},
@@ -29,8 +31,8 @@ module.exports = function(grunt){
 			main: {
 				src: [
 					'<%= includes.main.dest %>'
-				]
-			}
+				],
+			},
 		},
 		jshint: {
 			options: {

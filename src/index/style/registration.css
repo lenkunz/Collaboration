@@ -1,0 +1,35 @@
+.dialog-signup {
+	height: 500px;
+	overflow: hidden;
+	background: url(https://cdn.lenkyun.me/img/regis_background.jpg) #FFF no-repeat left center;
+}
+
+#register-dialog {
+	width: 400px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.95);
+}
+
+.dialog-signup paper-input-decorator, .dialog-signup paper-input {
+	float:left;
+	margin-right: 10px;
+	width: 300px;
+}
+
+.dialog-signup paper-input-decorator /deep/ input, .dialog-signup paper-input /deep/ input {
+	font-size: 20px!important;
+	text-align: center;
+}
+
+.dialog-signup h2 {
+	margin: 7px;
+	margin-left: 0;
+	font-size: 25px;
+}
+
+.dialog-signup form {
+	margin-left: 10px;
+}

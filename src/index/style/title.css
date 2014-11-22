@@ -1,0 +1,43 @@
+#toolbar {
+	background: rgba(255,255,255, 1);
+}
+
+#title {
+	font-weight: bold;
+	padding-left: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+
+	/* No support for these yet, use at own risk */
+	-o-user-select: none;
+	user-select: none;          
+}
+
+#title-wrap {
+	padding-right: 0;
+}
+
+#title-tld {
+	color: #E57373;
+}
+
+#menu-button {
+	width: 84px;
+	margin-left: 0;
+	padding: 15px;
+}
+
+#menu-toolbar {
+	margin-right: 0px;
+}
+
+.menu-item {
+	margin-top: 2px;
+	padding: 15px;
+}
+
+.menu-item .md-button-inner{
+	font-weight: bold;
+}

@@ -1,0 +1,28 @@
+<head/>
+<div aria-label="Sign up" layout="horizontal" layout-align="end" class="dialog-signup">
+
+	<md-dialog id="register-dialog" class="md-padding">
+		<h2>Join the challenge today!</h2>
+		<form ng-submit="registration()">
+			<div class="row">
+				<paper-input aria-label="username" label="Username"></paper-input>
+				<paper-input aria-label="nickname" label="Nickname"></paper-input>
+			</div>
+			<div class="row">
+				<paper-input-decorator aria-label="password" label="Password">
+					<input type="password"/>
+				</paper-input-decorator>
+				<paper-input-decorator aria-label="re-password" label="Re-enter" >
+					<input type="password"/>
+				</paper-input-decorator>
+			</div>
+			<br/>
+			<div class="row">
+				<paper-input class="name" aria-label="firstname" label="First-name"></paper-input>			
+			</div>
+			<div class="row">
+				<paper-input class="name" aria-label="lastname" label="Last-name"></paper-input>			
+			</div>
+		</form>
+	</md-dialog>
+</div>
